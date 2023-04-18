@@ -1,0 +1,17 @@
+// Import the base styles
+@import "base/base.scss";
+
+// Define the terminal styles
+.terminal {
+  background-color: black;
+  color: green;
+  padding: 1rem;
+  font-family: monospace;
+}
+
+// Override the base title styles
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: green;
+}

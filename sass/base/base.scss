@@ -1,0 +1,50 @@
+/* Resets */
+
+$black: #000000;
+$green: #00ff00;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: $black;
+  color: $green;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: green;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: green;
+  color: black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+}
